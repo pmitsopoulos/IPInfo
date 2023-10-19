@@ -20,13 +20,13 @@ namespace IPInfo.Persistence.Repositories
 
         private  IIpDetailsRepository _ipDetailsLocalRepo;
 
-        private  CacheService _cache;
+        //private  CacheService _cache;
 
         private readonly AppDbContext _context;
         private readonly HttpClient _httpClient;
         private readonly IOptions<IpInfoApiSettings> _ipApiSettings;
-        private readonly IMemoryCache _memoryCache;
-        private readonly IOptions<MemoryCacheOptions> _memoryCacheOptions;
+        //private readonly IMemoryCache _memoryCache;
+        //private readonly IOptions<MemoryCacheOptions> _memoryCacheOptions;
 
         
         public void Dispose()
@@ -34,20 +34,19 @@ namespace IPInfo.Persistence.Repositories
             _context.Dispose();
             GC.SuppressFinalize(this);
         }
-        public UnitOfWork(AppDbContext context, HttpClient httpClient,IOptions<IpInfoApiSettings> ipApiSettings, IMemoryCache memoryCache, IOptions<MemoryCacheOptions> memoryCacheOptions)
+        public UnitOfWork(AppDbContext context, HttpClient httpClient,IOptions<IpInfoApiSettings> ipApiSettings)
         {
             _context = context;
             _httpClient = httpClient;
             _ipApiSettings = ipApiSettings;
-            _memoryCache = memoryCache;
-            _memoryCacheOptions = memoryCacheOptions;
+           // _memoryCache = memoryCache;
+           // _memoryCacheOptions = memoryCacheOptions;
         }
 
         public IIpDetailsExternalRepository ipDetailsExternalRepository => _ipDetailsExternalRep ??= new IpDetailsApiRepository(_httpClient, _ipApiSettings);
 
         public IIpDetailsRepository ipDetailsLocalRepository => _ipDetailsLocalRepo ??= new IpDetailsRepository(_context);
 
-        public IMemoryCache cache => _cache ??= new MemoryCache(_memoryCacheOptions);
 
     }
 }

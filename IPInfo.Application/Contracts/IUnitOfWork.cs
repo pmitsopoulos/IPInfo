@@ -14,7 +14,7 @@ namespace IPInfo.Application.Contracts
         IIpDetailsExternalRepository ipDetailsExternalRepository { get; }
         IIpDetailsRepository ipDetailsLocalRepository { get; }
 
-        IMemoryCache cache { get; }
+        //IMemoryCache cache { get; }
         //Task Save();
 
     }

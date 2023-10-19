@@ -18,23 +18,25 @@ namespace IPInfo.Application.Features.Requests
     public class RetrieveIpDetailsHandler : IRequestHandler<RetrieveIpDetails, IpDetails>
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IMemoryCache _cache;
 
-        public RetrieveIpDetailsHandler(IUnitOfWork unitOfWork)
+        public RetrieveIpDetailsHandler(IUnitOfWork unitOfWork, IMemoryCache cache)
         {
             _unitOfWork = unitOfWork;
+            _cache = cache;
         }
 
         public async Task<IpDetails> Handle(RetrieveIpDetails request, CancellationToken cancellationToken)
         {
             
-            if (_unitOfWork.cache.TryGetValue(request.Ip, out IpDetails ipDetails))
+            if (_cache.TryGetValue(request.Ip, out IpDetails ipDetails))
             {
                 return ipDetails;
             }
             else if(await _unitOfWork.ipDetailsLocalRepository.Exists(searchTerm:request.Ip)) 
             {
                 var details = await _unitOfWork.ipDetailsLocalRepository.GetSingleBySearchTermAsync(request.Ip);
-                _unitOfWork.cache.Set(request.Ip, details,TimeSpan.FromMinutes(10));
+                _cache.Set(request.Ip, details,TimeSpan.FromMinutes(10));
                 return details;
             }
             else {
@@ -57,7 +59,7 @@ namespace IPInfo.Application.Features.Requests
                     };
                     var guid = await _unitOfWork.ipDetailsLocalRepository.CreateOneAsync(details);
                     details = await _unitOfWork.ipDetailsLocalRepository.GetByIdAsync(guid);
-                    _unitOfWork.cache.Set(details.Ip, details);
+                    _cache.Set(details.Ip, details);
                     return details;
                 }
             }
