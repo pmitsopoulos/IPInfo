@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "f2cd066+Jsd4yGsI+W5Rvc1wqsGhXI71HP3Bnn5Ph6c=",
+  "Source": "IPInfo.Api",
+  "BasePath": "_content/IPInfo.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,11 @@
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Caching\bin\Debug\net6.0\IPInfo.Caching.deps.json
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Caching\bin\Debug\net6.0\IPInfo.Caching.dll
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Caching\bin\Debug\net6.0\IPInfo.Caching.pdb
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Caching\obj\Debug\net6.0\IPInfo.Caching.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Caching\obj\Debug\net6.0\IPInfo.Caching.AssemblyInfoInputs.cache
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Caching\obj\Debug\net6.0\IPInfo.Caching.AssemblyInfo.cs
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Caching\obj\Debug\net6.0\IPInfo.Caching.csproj.CoreCompileInputs.cache
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Caching\obj\Debug\net6.0\IPInfo.Caching.dll
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Caching\obj\Debug\net6.0\refint\IPInfo.Caching.dll
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Caching\obj\Debug\net6.0\IPInfo.Caching.pdb
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Caching\obj\Debug\net6.0\ref\IPInfo.Caching.dll

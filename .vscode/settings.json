@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:IPInfo}/IPInfo.Api/LocalDatabase.db",
+            "name": "wut"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

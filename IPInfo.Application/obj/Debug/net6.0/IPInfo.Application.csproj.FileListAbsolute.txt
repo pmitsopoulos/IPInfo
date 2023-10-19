@@ -1,0 +1,15 @@
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Application\obj\Debug\net6.0\IPInfo.Application.csproj.AssemblyReference.cache
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Application\obj\Debug\net6.0\IPInfo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Application\obj\Debug\net6.0\IPInfo.Application.AssemblyInfoInputs.cache
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Application\obj\Debug\net6.0\IPInfo.Application.AssemblyInfo.cs
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Application\obj\Debug\net6.0\IPInfo.Application.csproj.CoreCompileInputs.cache
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Application\bin\Debug\net6.0\IPInfo.Application.deps.json
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Application\bin\Debug\net6.0\IPInfo.Application.dll
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Application\bin\Debug\net6.0\IPInfo.Application.pdb
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Application\bin\Debug\net6.0\IPInfo.Domain.dll
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Application\bin\Debug\net6.0\IPInfo.Domain.pdb
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Application\obj\Debug\net6.0\IPInfo.Application.csproj.CopyComplete
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Application\obj\Debug\net6.0\IPInfo.Application.dll
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Application\obj\Debug\net6.0\refint\IPInfo.Application.dll
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Application\obj\Debug\net6.0\IPInfo.Application.pdb
+C:\Users\pmitsopo\source\repos\IPInfo\IPInfo.Application\obj\Debug\net6.0\ref\IPInfo.Application.dll

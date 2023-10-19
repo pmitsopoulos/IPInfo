@@ -1,0 +1,419 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Api\\IPInfo.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Api\\IPInfo.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Api\\IPInfo.Api.csproj",
+        "projectName": "IPInfo.Api",
+        "projectPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Api\\IPInfo.Api.csproj",
+        "packagesPath": "C:\\Users\\pmitsopo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pmitsopo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Application\\IPInfo.Application.csproj": {
+                "projectPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Application\\IPInfo.Application.csproj"
+              },
+              "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPinfo.ExternalServices\\IPinfo.ExternalServices.csproj": {
+                "projectPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPinfo.ExternalServices\\IPinfo.ExternalServices.csproj"
+              },
+              "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Persistence\\IPInfo.Persistence.csproj": {
+                "projectPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Persistence\\IPInfo.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Application\\IPInfo.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Application\\IPInfo.Application.csproj",
+        "projectName": "IPInfo.Application",
+        "projectPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Application\\IPInfo.Application.csproj",
+        "packagesPath": "C:\\Users\\pmitsopo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pmitsopo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Domain\\IPInfo.Domain.csproj": {
+                "projectPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Domain\\IPInfo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Domain\\IPInfo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Domain\\IPInfo.Domain.csproj",
+        "projectName": "IPInfo.Domain",
+        "projectPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Domain\\IPInfo.Domain.csproj",
+        "packagesPath": "C:\\Users\\pmitsopo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pmitsopo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPinfo.ExternalServices\\IPinfo.ExternalServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPinfo.ExternalServices\\IPinfo.ExternalServices.csproj",
+        "projectName": "IPinfo.ExternalServices",
+        "projectPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPinfo.ExternalServices\\IPinfo.ExternalServices.csproj",
+        "packagesPath": "C:\\Users\\pmitsopo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPinfo.ExternalServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pmitsopo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Application\\IPInfo.Application.csproj": {
+                "projectPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Application\\IPInfo.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Persistence\\IPInfo.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Persistence\\IPInfo.Persistence.csproj",
+        "projectName": "IPInfo.Persistence",
+        "projectPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Persistence\\IPInfo.Persistence.csproj",
+        "packagesPath": "C:\\Users\\pmitsopo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pmitsopo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Application\\IPInfo.Application.csproj": {
+                "projectPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Application\\IPInfo.Application.csproj"
+              },
+              "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Domain\\IPInfo.Domain.csproj": {
+                "projectPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPInfo.Domain\\IPInfo.Domain.csproj"
+              },
+              "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPinfo.ExternalServices\\IPinfo.ExternalServices.csproj": {
+                "projectPath": "C:\\Users\\pmitsopo\\source\\repos\\IPInfo\\IPinfo.ExternalServices\\IPinfo.ExternalServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
